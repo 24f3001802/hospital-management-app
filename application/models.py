@@ -2,6 +2,7 @@ from .database import db
 from datetime import datetime, date, time
 import enum
 
+
 class AppointmentDetail(enum.Enum):
     PENDING = "Pending"
     COMPLETED = "Completed"
